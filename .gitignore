@@ -1,0 +1,47 @@
+# Checkpoints y modelos
+*.h5
+*.pth
+*.ckpt
+*.joblib
+
+# Datasets
+data/
+datasets/
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+
+# Logs y resultados
+logs/
+*.log
+*.out
+*.err
+
+# Archivos temporales y de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Python y entornos virtuales
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+
+# Cachés de frameworks
+*.npy
+*.pb
+*.pt
+*.onnx
+
+# Configuraciones locales
+.vscode/
+.idea/
+
+# Otros archivos grandes no necesarios en el repositorio
+*.png
+*.jpg
+*.mp4
+*.gif
